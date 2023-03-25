@@ -1,0 +1,53 @@
+body{
+    zoom: 68%;
+  
+  }
+#Details{
+width: 370px;
+height: 277px;
+background: #FDFDFD;
+position:absolute;
+left: 100px;
+top: 400px;
+
+}
+svg{
+position: relative;
+}
+#ctag{
+
+height: 33px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #FF0000;
+}
+#CurrentLocation{
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+#dtag{
+height: 33px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #128C25;
+}
+#DestinationLocation{
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}

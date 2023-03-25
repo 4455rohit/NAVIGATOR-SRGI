@@ -1,0 +1,162 @@
+
+		*{
+	margin:0;
+	padding:0;
+	
+}
+
+.main
+{
+	display:flex;
+	width:100%;
+	height:40%;
+}
+.main #navigation
+{
+	background-color: grey;
+	height:550px;
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:50px;
+	
+}
+.main #bot
+{
+	background-color: green;
+	height:550px;
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:50px;
+	
+}
+/*chatbox*/
+.chat_icon
+{
+	position: fixed;
+	right:30px;
+	bottom:0;
+	font-size: 80px;
+	cursor:pointer;
+	z-index:1000;
+}
+.chat_box
+
+{
+	position:fixed;
+	right:170px;
+	bottom:70px;
+	width: 400px;
+	height: 70vh;
+	
+	background:#dedede;
+	z-index:1000;
+	transition: all 0.3s ease-out;
+	transform: scaleY(0);
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	background-color: #0000006b;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	overflow-x: hidden;
+	
+	
+}
+
+.chat_box.active
+{
+	transform:scaleY(1);
+}
+.chat_box .head
+{
+	
+	
+	
+
+}
+.chat_box .head h6
+{
+	color:white;
+	padding:15px;
+	font-size: 30px;
+	overflow: hidden;
+	
+}
+.chat_box .middle
+{
+	flex:1;
+	background-color: #00000000;
+	padding:20px 20px;
+	
+
+}
+.middle:: -webkit-scrollbar-track
+{
+	
+	-webkit-box-shadow: insert 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5f5;
+
+}
+.middle:: -webkit-scrollbar
+{
+	width:12px;
+	background-color: #F5F5f5;
+}
+.middle:: -webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: insert 0 0 6px rgba(0,0,0,0.3);
+	background-color: #555;
+}
+
+ .user_message 
+{
+	background-color:white;
+	padding:10px;
+	color:black;
+	width:fit-content;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+ .message 
+{
+	margin-left: 0;
+	background-color: blue;
+	color:white;
+	font-size: 15px;
+	
+}
+
+.chat_box #userInput 
+{
+	display: flex;
+	position:relative;
+
+}
+
+ input[type="text"]
+{
+	flex:1;
+	height:40px;
+	border:none;
+	outline:none;
+	padding-left:10px;
+	font-size:20px;
+}
+
+ input[type="submit"]
+{
+	width:80px;
+	font-size: 18px;
+	border:none;
+	outline:none;
+	background-color: #999999;
+}
+#buttonInput{
+	margin-top: 25px;
+	margin-right: 100px;
+
+}
+
+	

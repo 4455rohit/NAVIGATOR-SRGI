@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap" rel="">
+
+
+    <script src="js/script.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<style>
+    header {
+        height: 5rem;
+        margin-bottom: 2rem;
+        color: white;
+        font-size: 3rem;
+
+    }
+
+    #nav {
+        height: 30rem;
+
+        /* border: 2px solid black; */
+    }
+
+
+    #enq {
+        height: 30rem;
+        /* border: 2px solid black; */
+    }
+
+    #r1 {
+        /* border: 2px solid black; */
+        padding: 5px;
+
+    }
+
+    /* .container {
+        border: 2px solid black;
+
+    } */
+
+    @media (max-width: 991px) {
+        .column-margin {
+            margin: 20px 0;
+        }
+    }
+
+    /* main {
+        background-image: url("indexbg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    /* footer {
+        position: fixed;
+        bottom: 0;
+    } */
+    /* html,
+    body {
+        /* height: 100%; 
+        background-image: url("indexbg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+</style>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid justify-content-center">
+                NAVIGATOR<sub id="subscript"> for SRGI</sub>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid align-items-center min-vh-90">
+            <div class="row justify-content-around align-items-center " id="r1">
+                <div class="col-lg-3 col-md-7 col-sm-10 column-margin" id="nav">
+                    <div id="map">
+                        <h1 style="color:white;">Navigation</h1>
+                        <br>
+                        <span id="div1"> Current Location</span><br><br>
+                        <input placeholder="Nearest Room Number" id="current" name="current" type="search" list="to"
+                            required>
+                        <datalist id="to">
+                            <option value="Entry Exit">Enterance OR Exit of College</option>
+                            <option value="principal">principal</option>
+                            <option value="room-G-01">room-G-01</option>
+                            <option value="room-G-02">room-G-02</option>
+                            <option value="room-G-03">room-G-03</option>
+                            <option value="room-G-04">room-G-04</option>
+                            <option value="store-room">store-room</option>
+                            <option value="phrmacology-lab">phrmacology-lab</option>
+                            <option value="central-distillation-lab">central-distillation-lab</option>
+                            <option value="biotech">biotech</option>
+                            <option value="chemisty-lab">chemisty-lab</option>
+                            <option value="water2">water2</option>
+                            
+                            <option value="computer-lab-b.tech">computer-lab-b.tech</option>
+                            <option value="room-G-05">room-G-05</option>
+                            <option value="engeenering-library">engeenering-library</option>
+                            <option value="communication-lab">communication-lab</option>
+                            <option value="fluid-machine-lab">fluid-machine-lab</option>
+                            <option value="workshop">workshop</option>
+                            <option value="room-G-06">room-G-06</option>
+                            <option value="cad-lab">cad-lab</option>
+                            <option value="enviermental-eng-lab">enviermental-eng-lab</option>
+                            <option value="room-G07">room-G07</option>
+                            <option value="highway-material-lab">highway-material-lab</option>
+                            <option value="basic-electical-lab">basic-electical-lab</option>
+
+                            <!--first floor-->
+                            <option value="room-f01">room-f01</option>
+                            <option value="ce-exam-cell">ce-exam-cell</option>
+                            <option value="zoology-lab">zoology-lab</option>
+                            <option value="physics-lab">physics-lab</option>
+                            <option value="central-instumntation-lab">central-instumntation-lab</option>
+                            <option value="staff-03">staff-03</option>
+                            <option value="staff-04">staff-04</option>
+                            <option value="principal-srcc">principal-srcc</option>
+                            <option value="store-room-f">store-room-f</option>
+                            <option value="boys-toilet-2f">boys-toilet-2f</option>
+                            <option value="girls-toilet-f">girls-toilet-f</option>
+                            <option value="mechanical-lab">mechanical-lab</option>
+                            <option value="toturial-room">toturial-room</option>
+                            <option value="room-f01">room-f01</option>
+                            <optionl value="llb-court">llb-court</optionl>
+                            <option value="water-1f">water-1f</option>
+                            <option value="staff-01">staff-01</option>
+                            <option value="room-f03">room-f03</option>
+                            <option value="room-f04">room-f04</option>
+                            <option value="boys-comman-room">boys-comman-room</option>
+                            <option value="reading-room">reading-room</option>
+                            <option value="boys-toilet-1-f-toilet-f">boy toilet</option>
+                            <option value="staff-toilet">staff-toilet</option>
+                            <option value="corridor">corridor</option>
+                            <option value="room-f08">room-f08</option>
+                            <option value="room-f07">room-f07</option>
+                            <option value="room-f06">room-f06</option>
+                            <option value="room-f05">room-f05</option>
+                            <option value="computer-lab-bsc">computer-lab-bsc</option>
+                            <option value="principal-law">principal-law</option>
+                            <option value="library-srcc">library-srcc</option>
+                            <option value="staff-02">staff-02</option>
+                            <option value="phyconology">phyconology</option>
+                            <option value="girls-toilet">girls-toilet</option>
+                            <option value="boys-toilet">boys-toilet</option>
+                            <option value="staff-toilet">staff-toilet</option>
+                        </datalist>
+                        <img src="images/location.png" width="40px" height="40px"
+                            onclick='window.location.href="templates/selectFromMapCurrent.html"'>
+                        <br><br>
+
+                        <span id="div2"> Destination Location</span><br><br>
+                        <input placeholder="Destination" id="destination" name="destination" type="search" list="rno">
+                        <datalist id="rno">
+                            <option value="Entry Exit">Enterance OR Exit of College</option>
+                            <option value="principal">principal</option>
+                            <option value="room-G-01">room-G-01</option>
+                            <option value="room-G-02">room-G-02</option>
+                            <option value="room-G-03">room-G-03</option>
+                            <option value="room-G-04">room-G-04</option>
+                            <option value="store-room">store-room</option>
+                            <option value="phrmacology-lab">phrmacology-lab</option>
+                            <option value="central-distillation-lab">central-distillation-lab</option>
+                            <option value="biotech">biotech</option>
+                            <option value="chemisty-lab">chemisty-lab</option>
+                            <option value="water2">water2</option>
+                            
+                            <option value="computer-lab-b.tech">computer-lab-b.tech</option>
+                            <option value="room-G-05">room-G-05</option>
+                            <option value="engeenering-library">engeenering-library</option>
+                            <option value="communication-lab">communication-lab</option>
+                            <option value="fluid-machine-lab">fluid-machine-lab</option>
+                            <option value="workshop">workshop</option>
+                            <option value="room-G-06">room-G-06</option>
+                            <option value="cad-lab">cad-lab</option>
+                            <option value="enviermental-eng-lab">enviermental-eng-lab</option>
+                            <option value="room-G07">room-G07</option>
+                            <option value="highway-material-lab">highway-material-lab</option>
+                            <option value="basic-electical-lab">basic-electical-lab</option>
+
+                            <!--first floor-->
+                            <option value="room-f01">room-f01</option>
+                            <option value="ce-exam-cell">ce-exam-cell</option>
+                            <option value="zoology-lab">zoology-lab</option>
+                            <option value="physics-lab">physics-lab</option>
+                            <option value="central-instumntation-lab">central-instumntation-lab</option>
+                            <option value="staff-03">staff-03</option>
+                            <option value="staff-04">staff-04</option>
+                            <option value="store-room-f">store-room-f</option>
+                            <option value="principal-srcc">principal-srcc</option>
+                            <option value="boys-toilet-2f">boys-toilet-2f</option>
+                            <option value="girls-toilet-f">girls-toilet-f</option>
+                            <option value="mechanical-lab">mechanical-lab</option>
+                            <option value="toturial-room">toturial-room</option>
+                            <option value="room-f01">room-f01</option>
+                            <optionl value="llb-court">llb-court</optionl>
+                            <option value="water-1f">water-1f</option>
+                            <option value="staff-01">staff-01</option>
+                            <option value="room-f03">room-f03</option>
+                            <option value="room-f04">room-f04</option>
+                            <option value="boys-comman-room">boys-comman-room</option>
+                            <option value="reading-room">reading-room</option>
+                            <option value="boys-toilet-1-f-toilet-f">boy toilet</option>
+                            <option value="staff-toilet">staff-toilet</option>
+                            <option value="corridor">corridor</option>
+                            <option value="room-f08">room-f08</option>
+                            <option value="room-f07">room-f07</option>
+                            <option value="room-f06">room-f06</option>
+                            <option value="room-f05">room-f05</option>
+                            <option value="computer-lab-bsc">computer-lab-bsc</option>
+                            <option value="principal-law">principal-law</option>
+                            <option value="library-srcc">library-srcc</option>
+                            <option value="staff-02">staff-02</option>
+                            <option value="phyconology">phyconology</option>
+                            <option value="girls-toilet">girls-toilet</option>
+                            <option value="boys-toilet">boys-toilet</option>
+                            <option value="staff-toilet">staff-toilet</option>
+                        </datalist>
+                        <img src="images/location.png" width="40px" height="40px"
+                        onclick='window.location.href="templates/selectFromMapDestination1.html"'>
+                        <br><br><br>
+                        <button onclick="colorChange()">Submit</button>
+                        <br><br>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>

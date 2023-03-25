@@ -1,0 +1,174 @@
+
+
+ input {
+  margin: 20px;
+  padding: 10px;
+  width: 270px;
+  text-align: center;
+  border-radius: 25px;
+}
+a{
+  font-size: 25px;
+  
+  color: antiquewhite;
+}
+a:hover{
+  color: red;
+}
+body {
+  background: url('../images/college.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-family: "Oswald", sans-serif;
+} 
+#map {
+  text-align: center;
+  background-color: #0000006b;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  float: left;
+}
+h1 {
+  padding: 15px;
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+text-decoration-line: underline;
+color: #ffffff;
+}
+p {
+  text-align: center;
+  font-size: larger;
+}
+button {
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+  width: 100px;
+  height: 30px;
+  border:2px solid black;
+  background-color: #455dc7;
+  color:white;
+}
+ #div1 {
+  color: #fc100d;
+  font-family: Red Hat Text;
+font-style: normal;
+font-weight:bolder;
+font-size: 24px;
+background-color: #ffffff;
+width:60%;
+}
+#div2 {
+  font-family: Red Hat Text;
+font-style: normal;
+font-weight:bolder;
+font-size: 24px;
+  color: #4bb543;
+  background-color: #ffffff;
+width:60%;
+} 
+button:hover {
+  background-color: rgb(75, 196, 129);
+  border-radius: 5px;
+}
+#subscript {
+  font-size: 40%;
+  font-family: sans-serif;
+}
+#current{
+  border: 2px solid black;
+}
+#destination{
+  border: 2px solid black;
+}
+/* @media only screen and (max-width: 750px) {
+	#map{
+		position:static;
+		margin-left: 100px;
+    float: none;
+	  }
+  } 
+
+#toMap{
+  width: 150px;
+  height: 40px;
+}
+  /*toMap.html css
+#toMapBody{
+    background: #0e1538 ;
+}
+#h{
+  color: antiquewhite;
+  font-size: 30px;
+}
+#gFM{
+width: 250px;
+height: 70px;
+background-color: rgba(228, 220, 220, 0.377);
+border-radius: 10px;
+font-size: 40px;
+margin: 20px;
+font-family: 'Caveat', cursive;
+}
+#fFM{
+width: 250px;
+height: 70px;
+background-color: rgba(228, 220, 220, 0.377);
+border-radius: 10px;
+font-size: 40px;
+margin: 20px;
+font-family: 'Caveat', cursive;
+}
+#sFM{
+width: 250px;
+height: 70px;
+background-color: rgba(228, 220, 220, 0.377);
+border-radius: 10px;
+font-size: 40px;
+margin: 20px;
+font-family: 'Caveat', cursive;
+}
+#toMapContainer{
+background-color: rgba(0, 0, 0, 0.377);
+border-radius: 5px;
+border: 2px;
+padding: 150px;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+}
+
+iframe{
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+   #chat_box{
+    position:static;
+    margin-top: 20px;
+    margin-left:200px;
+    margin-right: 0px;
+    }
+  }
+  
+   @media only screen and (max-width: 750px) {
+   #chat_box{
+    position:static;
+    margin-top: 5%;
+    margin-left:100px;
+    float:none;
+  }
+}
+
+ */
