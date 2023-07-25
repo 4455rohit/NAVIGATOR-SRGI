@@ -25,17 +25,17 @@ function colorChange()
     localStorage.setItem("destination", destinationPosition);
     
 
-    var gfloor=["room-G-01","room-G-02","room-G-03","room-G-04","entry Exit","principal","store-room","phrmacology-lab","central-distillation-lab","biotech","chemist"];
-    var ffloor=[];
+    var gfloor=["room G01","room G02","room G03","room G04","entry Exit","principal","store room","phrmacology lab","central distillation lab","biotech","chemisty lab","waterfilter2","girls washroom","computer lab","engeenering library","communication lab","fluid machine lab","room G05","room G06","boys washroom","staff washroom","cad lab","M.tech hod","civil hod","enviermental eng lab","room G07","highway material lab","basic electical lab","Exam cell","ncc room","sport-room","vk maam","cs hod"];
+    var ffloor=["corridor fp","room f01","ce exam cell","zoology lab","physics lab","cetral inst lab","store roomf","boys washroom2f","girls washroomf","mechnical lab","toturial room","room f02","waterffilter1","llb court","room f03","room f04","boys comman room","reading room","boys washroomf","staff washroomf","library srcc","computer lab bsc","room f05","room f06","room f07","room f08","principal srcc","staff01","staff02","phyconology","staff03","staff04","principal law","me hod"];
     if ((gfloor.includes(currentPosition)) && (gfloor.includes(destinationPosition))==true)
         {
             window.location.href = 'templates/ground_floor.html';
         }
     else if((ffloor.includes(currentPosition)) && (ffloor.includes(destinationPosition))==true){
-            window.location.href = 'templates/firstFloorMap.html';
+            window.location.href = 'templates/fmap.html';
         }
     else{
-            window.location.href = 'templates/bothMap.html';
+            window.location.href = 'templates/bothmap.html';
         }
     }
    
